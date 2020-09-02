@@ -2,7 +2,7 @@ Changes
 INSTALL
 MANIFEST
 Makefile.PL
-mytop
+elktop
 README
 test.pl
 META.yml                                 Module meta-data (added by MakeMaker)

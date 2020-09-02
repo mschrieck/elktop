@@ -1,24 +1,22 @@
-README for mytop version 1.7
-============================
+README for elktop version 1.0
+=============================
 
-WEB
-
-  http://jeremy.zawodny.com/mysql/mytop/
 
 ABOUT
 
-  mytop is a `top' clone for MySQL
+  elktop is clone from mytop which is a `top' clone for MySQL
 
-  mytop is a console-based (non-gui) tool for monitoring the threads
-  and overall performance of MySQL 3.22.x, 3.23.x, and 4.x servers. It
-  runs on most Unix systems which have Perl, DBI, and Term::ReadKey
+  elktop is a tool for monitoring ELK Clusters.
+  It runs on most Unix systems which have Perl, DBI, and Term::ReadKey
   installed. And with Term::ANSIColor installed you even get color. As
   of version 0.7, it even runs on Windows (somewhat).
 
+  Original Code is from mytop from Jeremy D. Zawodny <Jeremy@Zawodny.com>
+
 INSTALLATION
 
-  tar -zxvf mytop-<version>.tar.gz
-  cd mytop-<version>
+  tar -zxvf elktop-<version>.tar.gz
+  cd elktop-<version>
   perl Makefile.PL
   make
   make test
@@ -28,15 +26,16 @@ INSTALLATION
 
 DOCUMENTATION
 
-  man mytop
+  man elktop
 
 AUTHOR
 
+  Marco Schrieck <mschrieck@gmail.com>
   Jeremy D. Zawodny <Jeremy@Zawodny.com>
 
 COPYRIGHT
 
-  mytop is licensed under the GNU General Public License version
+  elktop is licensed under the GNU General Public License version
   2. For the full license information, please visit
 
   http://www.gnu.org/copyleft/gpl.html
